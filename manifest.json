@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "最终幻想14工具网站本地化",
+  "version": "0.1.0",
+  "description": "本地化一些最终幻想14相关的工具网站，使其语言和数据适用于中国区",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://www.garlandtools.org/bell/*",
+    "storage"
+  ],
+  "web_accessible_resources": [
+    "sites/*"
+  ]
+}
